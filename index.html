@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Scroll of Invoice Slaying - FIGv.3</title>
+	<link rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1>Forge Your Invoice</h1>
+
+		<div class="form-group">
+			<label for="clientName">Noble Client:</label>
+			<input type="text" id="clientName" />
+		</div>
+
+		<div class="form-group">
+			<label for="projectDesc">Quest Description:</label>
+			<input type="text" id="projectDesc" />
+		</div>
+
+		<div class="form-group">
+			<label for="amount">Reward (Gold Pieces):</label>
+			<input type="text" id="amount" />
+		</div>
+
+		<button onclick="generateInvoice()">Summon Invoice</button>
+		<button onclick="downloadPDF()">Download Scroll</button>
+
+		<div id="invoiceOutput"></div>
+		<div id="invoice" style="display:none;"></div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
