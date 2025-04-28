@@ -1,0 +1,66 @@
+body {
+	font-family: "Cinzel Decorative", serif;
+	background-color: #f4f0e5;
+	padding: 20px;
+	text-align: center;
+}
+
+.container {
+	width: 90%;
+	max-width: 600px;
+	margin: auto;
+	background: #fffaf0;
+	padding: 20px;
+	border: 3px solid #5a3825;
+	border-radius: 15px;
+	box-shadow: 0 0 15px #00000055;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input {
+	width: 80%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #5a3825;
+	font-family: "Cinzel Decorative", serif;
+	font-size: 16px;
+}
+
+button {
+	width: 85%;
+	margin: 10px 0;
+	padding: 12px;
+	font-size: 18px;
+	background-color: #8b0000;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-family: "Cinzel Decorative", serif;
+}
+
+button:hover {
+	background-color: #a52a2a;
+}
+
+.invoice {
+	background-color: #fff8dc;
+	border: 2px solid #DAA520;
+	padding: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+	font-family: "Cinzel Decorative", serif;
+}
